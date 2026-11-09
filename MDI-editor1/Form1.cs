@@ -18,8 +18,8 @@ namespace MDI_editor1
             TextBox txtBox = new TextBox(); //текст бичих талбар үүсгэж байна
             txtBox.Dock = DockStyle.Fill; //форм дээр дүүргэж байна.
             txtBox.Multiline = true; // олон мөр текст бичих боломжтой болно.
-            ChildForm.Controls.Add(txtBox); // хүү формын контролуудын массивт нэмж байна.
-            ChildForm.Show(); // хүү формыг харагдуулж байна.
+            ChildForm.Controls.Add(txtBox); // хүү формын контролуудын массивт нэмж 
+            ChildForm.Show(); // хүү формыг харагдуулж
         }
 
         private void arrangeIconsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -29,7 +29,7 @@ namespace MDI_editor1
 
         private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LayoutMdi(MdiLayout.Cascade);
+               LayoutMdi(MdiLayout.Cascade);
         }
 
         private void horizToolStripMenuItem_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace MDI_editor1
 
         private void vertToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LayoutMdi(MdiLayout.TileVertical);
+               LayoutMdi(MdiLayout.TileVertical);
         }
     }
 }
